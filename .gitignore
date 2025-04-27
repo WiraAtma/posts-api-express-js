@@ -1,0 +1,30 @@
+# Node modules folder
+/node_modules/
+
+# .env file untuk variabel environment (seperti DATABASE_URL, API keys, dll.)
+.env
+
+# Prisma files (prisma schema dan generated client)
+/prisma/migrations/
+/prisma/schema.prisma
+/prisma/generated/
+
+# Log files
+*.log
+
+# OS specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific
+*.swp
+
+# Temp files
+*.tmp
+*.bak
+
+# File debug
+debug/
